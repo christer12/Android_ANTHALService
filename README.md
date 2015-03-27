@@ -1,13 +1,16 @@
-# Android ANT HAL Service v.4.0.0 - 25 Aug 2014
+# Android Bluedroid ANT Service
 
-The ANT HAL Service functions as a JNI wrapper for the ANT HAL. 
-The ANT Hal Service provides the messaging and state control interface
-to the built-in adapter for the ANT Radio Service to interact with.
+The Bluedroid ANT Service is an ANT Chip Provider Service for chips
+who's serial interface is through vendor-specific HCI messages, on a
+device using the Bluedroid stack for Bluetooth. 
+
+The ANT Chip Provider services provides the messaging and state control
+interface to ANT adapters, for the ANT Radio Service to interact with.
 
 
 ## License
 
-Copyright 2009-2014 Dynastream Innovations
+Copyright 2009-2015 Dynastream Innovations
 
 This product includes software developed at
 Dynastream Innovations (http://www.dynastream.com/).
@@ -27,6 +30,3 @@ limitations under the License.
 
 ## Changelog
 
-v4.0.0 - 25 Aug 2014 (changes since 3.2.0)
--------------------------------------------------------------
-> * Remove ANT and ANT_ADMIN permission defines which conflict with ANT Radio Service defines with new Android L permission behaviour (INSTALL_FAILED_DUPLICATE_PERMISSIONS_ERROR)
