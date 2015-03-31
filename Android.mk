@@ -31,7 +31,7 @@ LOCAL_REQUIRED_MODULES := ant-wireless.conf
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := AntHalService
+LOCAL_PACKAGE_NAME := BluedroidANTService
 
 # Make sure proguard doesn't trim away the framer classes, since they are only accessed through
 # reflection.
